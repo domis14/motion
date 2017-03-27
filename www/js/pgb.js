@@ -35,5 +35,5 @@ function businesscard()
 	'Name and surname: Dominik Adamski' +
 	'Email: dominik.adamski@interia.pl' +
 	'Dean\'s group: KrDUIs1011' +
-	'Field of study: applied computer science'
+	'Field of study: applied computer science';
 }
