@@ -5,6 +5,7 @@
         version     = "1.0.0" >
 		<feature name="Accelerometer">
 		<param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
+		  <plugin name="Accelerometer" value="org.apache.cordova.AccelListener"/>
 		</feature>
 
     <name>Motion</name>
