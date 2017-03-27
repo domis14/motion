@@ -28,3 +28,12 @@ function personalData()
 
 	navigator.notification.alert(info);
 }
+
+function businesscard()
+{
+	info = 'PERSONAL INFORMATION' +
+	'Name and surname: Dominik Adamski' +
+	'Email: dominik.adamski@interia.pl' +
+	'Dean\'s group: KrDUIs1011' +
+	'Field of study: applied computer science'
+}
