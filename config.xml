@@ -3,8 +3,9 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
 		id          = "businesscard"
         version     = "1.0.0" >
-		<feature name="Accelerometer">
-		<param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
+		<feature name="Accelerometer">	
+		<plugin name="cordova-plugin-device" spec="~1.1.4" />
+		<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
 		</feature>
 
     <name>Motion</name>
