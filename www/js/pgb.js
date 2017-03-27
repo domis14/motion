@@ -38,3 +38,8 @@ function businesscard()
 	'Field of study: applied computer science';
 	navigator.notification.alert(info);
 }
+
+function acceleration() 
+{
+    info =	navigator.accelerometer.getCurrentAcceleration +
+}
