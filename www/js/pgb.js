@@ -36,10 +36,12 @@ function businesscard()
 	'Email: dominik.adamski@interia.pl \n' +
 	'Dean\'s group: KrDUIs1011 \n' +
 	'Field of study: applied computer science';
-	navigator.notification.alert(info);
+	navigator.notification.alert(info)
 }
 
-function acceleration() 
-{
-    info =	navigator.accelerometer.getCurrentAcceleration +
-}
+function onSuccess(acceleration) {
+    alert('Acceleration X: ' + acceleration.x + 'n' +
+          'Acceleration Y: ' + acceleration.y + 'n' +
+          'Acceleration Z: ' + acceleration.z + 'n' +
+          'Timestamp: '      + acceleration.timestamp + 'n');
+};

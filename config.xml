@@ -3,7 +3,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
 		id          = "businesscard"
         version     = "1.0.0" >
-
+	<plugin name="cordova-plugin-device-motion" spec="~1.2.4" />
     <name>Motion</name>
     <description></description>
     <author email="dominik.adamski@interia.pl">
