@@ -39,9 +39,8 @@ function businesscard()
 	navigator.notification.alert(info)
 }
 
-function onSuccess(acceleration) {
-    alert('Acceleration X: ' + acceleration.x + 'n' +
-          'Acceleration Y: ' + acceleration.y + 'n' +
-          'Acceleration Z: ' + acceleration.z + 'n' +
-          'Timestamp: '      + acceleration.timestamp + 'n');
+function onSuccess(acceleration) 
+{
+    info = navigator.accelerometer.getCurrentAcceleration(accelerometerSuccess, accelerometerError);
+		  navigator.notification.alert(info)
 };
