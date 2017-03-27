@@ -31,10 +31,10 @@ function personalData()
 
 function businesscard()
 {
-	info = 'PERSONAL INFORMATION' +
-	'Name and surname: Dominik Adamski' +
-	'Email: dominik.adamski@interia.pl' +
-	'Dean\'s group: KrDUIs1011' +
+	info = 'PERSONAL INFORMATION \n' +
+	'Name and surname: Dominik Adamski \n' +
+	'Email: dominik.adamski@interia.pl \n' +
+	'Dean\'s group: KrDUIs1011 \n' +
 	'Field of study: applied computer science';
 	navigator.notification.alert(info);
 }
