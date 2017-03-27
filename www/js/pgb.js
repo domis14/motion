@@ -23,8 +23,8 @@ function deviceInfo() {
 
 function personalData()
 {
-	info =  'Hi, my name is Dominik)' + '\n' +
-			'Moje nazwisko: Adamski \n' 
+	info =  'Moje imie to Dominik)' + '\n' +
+			'a nazwisko: Adamski \n' 
 
 	navigator.notification.alert(info);
 }
