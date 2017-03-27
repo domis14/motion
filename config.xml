@@ -4,8 +4,8 @@
 		id          = "businesscard"
         version     = "1.0.0" >
 
-    <name>Business card</name>
-    <description>Business card</description>
+    <name>Motion</name>
+    <description></description>
     <author email="dominik.adamski@interia.pl">
 		Dominik Adamski
 	</author>
