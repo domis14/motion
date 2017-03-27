@@ -44,10 +44,9 @@ function onSuccess(acceleration) {
           'Acceleration Y: ' + acceleration.y + '\n' +
           'Acceleration Z: ' + acceleration.z + '\n' +
           'Timestamp: '      + acceleration.timestamp + '\n');
-}
+};
 
-function onError() {
+function onError() 
+{
     alert('onError!');
-}
-
-navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
+};

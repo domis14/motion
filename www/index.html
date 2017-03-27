@@ -11,10 +11,8 @@
 		<p id="dp"></p>
 		<input type="button" onclick="deviceInfo()" value="Let me introduce myself!"><br>
 		<input type="button" onClick="businesscard()" value="Pokaz szczegółowe informacje o autorze aplikacji!"><br>
-		
-<input type="button" onclick="onSuccess(acceleration)" value="How about motion on screen">
-		
-		<p>getCurrentAcceleration<p>
+		<input type="button" onClick="navigator.accelerometer.getCurrentAcceleration(onSuccess, onError)" value="Pokaz informacje zwiazane z położeniem telefonu"><br>
+
 		
 	</body>
 
