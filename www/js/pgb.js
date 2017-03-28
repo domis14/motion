@@ -50,3 +50,6 @@ function onError()
 {
     alert('onError!');
 };
+
+
+var options = { frequency: 3000 };  // Update every 3 seconds
